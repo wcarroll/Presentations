@@ -12,3 +12,4 @@ $Presenter = [PSCustomObject]@{
         # Blog     = "https://interruptrequest.io" - Under Construction
     }
 }
+$Presenter | ConvertTo-Json
