@@ -2,3 +2,4 @@
 
 * Where-Object (Pipeline)
 * Where Method
+* Comparison Operators
