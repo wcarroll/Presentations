@@ -8,7 +8,6 @@ $Whiskies = @(
 )
 
 #region - ForEach-Object
-
 $Whiskies | ForEach-Object { Write-Output "$PSItem is good!" }
 $Whiskies | ForEach-Object { Write-Output "$_ is good!" }
 #endregion
@@ -21,6 +20,13 @@ foreach ($Whiskey in $Whiskies){
 
 #region - foreach Method
 $Whiskies.ForEach({Write-Output "$_ is good!"})
+#endregion
+
+#region for loop
+for ($i = 0; $i -lt $Whiskies.Count; $i++){
+    $Response = "{0} Whiskey is at Index {1}" -f $Whiskies[$i], $i
+    Write-Output ($Response)
+}
 #endregion
 
 #region - Switch Loop

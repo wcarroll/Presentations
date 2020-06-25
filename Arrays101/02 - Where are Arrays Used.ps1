@@ -1,3 +1,3 @@
 Get-ChildItem
-$Processes = Get-ChildItem
-$Processes.gettype()
+$DirItems = Get-ChildItem
+$DirItems.gettype()
