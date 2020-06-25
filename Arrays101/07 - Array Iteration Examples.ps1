@@ -12,6 +12,10 @@ $Whiskies | ForEach-Object { Write-Output "$PSItem is good!" }
 $Whiskies | ForEach-Object { Write-Output "$_ is good!" }
 #endregion
 
+#region - ForEach-Object
+$Whiskies | ForEach-Object -Parallel { (start-sleep -ms (Get-Random -Minimum 100 -Maximum 1000)); Write-Output "$PSItem is good!" }
+#endregion
+
 #region - foreach
 foreach ($Whiskey in $Whiskies){
     Write-Output "$Whiskey is good!"

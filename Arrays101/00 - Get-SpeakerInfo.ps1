@@ -1,4 +1,4 @@
-[PSCustomObject]@{
+$Presenter = [PSCustomObject]@{
     Name                  = "Wes Carroll"
     Job                   = "Enterprise Architect"
     Employeer             = "Zerto"
@@ -9,6 +9,6 @@
         GitHub   = "https://github.com/wcarroll"
         Twitter  = "https://www.twitter.com/WesCarrollTech"
         Email    = "wcarroll@oceanbeachlife.com"
-        Blog     = "https://interruptrequest.io"
+        # Blog     = "https://interruptrequest.io" - Under Construction
     }
 }

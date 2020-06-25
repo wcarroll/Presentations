@@ -2,6 +2,6 @@
 
 * You don't\*
 * Data inside of arrays can be updated but increasing the size (count) of the array is not possible
-<!-- * Wes, I think you are forgetting about the "+=" operator
+<!--* Wes, I think you are forgetting about the "+=" operator
 
-![Plus Equals](PlusEquals.gif) -->
+<!--![Plus Equals](PlusEquals.gif)
