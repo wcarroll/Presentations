@@ -51,9 +51,14 @@ $Whiskies = @(
 )
 $Favorite = $Whiskies[0]
 $Favorite
+$Favorite.GetType()
+$Favorite[0..1]
+
+
 
 $Favorite = $Whiskies[0,2,3]
 $Favorite
+$Favorite.GetType()
 #endregion
 
 #Region - Unpacking

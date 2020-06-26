@@ -1,5 +1,6 @@
 $Whiskies = [System.Collections.Generic.List[String]]::new()
 $Whiskies.Count
+$Whiskies.GetType()
 
 #region - Adding Items
 $Whiskies.Add("Bourbon")

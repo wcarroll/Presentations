@@ -4,7 +4,7 @@ $MyArray = foreach ($Value in $Values) {
 }
 $MyArray.Count
 
-$Values = 1..20000
+$Values = 1..2000000
 $MyArray = foreach ($Value in $Values) {
     $Value
 }

@@ -25,7 +25,7 @@ $Array.GetType()
 #endregion
 
 #region - Strongly Typed
-[string[]]$NewArray = "1", "2"
+[string[]]$NewArray = "1", "2", 5
 $NewArray.GetType()
 #endregion
 

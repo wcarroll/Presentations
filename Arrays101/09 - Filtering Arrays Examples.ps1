@@ -5,5 +5,7 @@ $TenNumbers | Where-Object {$_ % 2 -eq 0}
 #endregion
 
 #region - Where Method
-$TenNumbers | Where-Object { $_ % 2 -eq 1 }
+$TenNumbers.Where({ $_ % 2 -eq 1 })
 #endregion
+
+$TenNumbers -gt 8
